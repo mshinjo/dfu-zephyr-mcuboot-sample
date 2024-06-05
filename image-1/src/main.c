@@ -8,8 +8,8 @@
 
 #define IMAGE 1
 
-void main(void)
+int main(void)
 {
 	printk("%s: Hello World!\nThis message is from image-%d!\n", CONFIG_BOARD, IMAGE);
-	return;
+	return 0;
 }
